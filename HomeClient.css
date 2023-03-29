@@ -5,11 +5,16 @@
    
 }
 
+
+body{
+    background: linear-gradient(turquoise, blue, turquoise);
+}
 .navbar{
     justify-content: space-between;
     flex-direction: row;
     flex-wrap: nowrap;
     display:flex;
+    background-color: none;
 
 }
 
@@ -72,3 +77,71 @@ font-size: x-large;
     align-items: center;
     justify-content: space-around;
 }
+
+.logo{
+    width:25%;
+}
+
+
+#div-accueil{
+    background-image: url("cours-de-programmation-suivi-par-un-groupe-de-fe-234-900x300.jpg");
+    height:400px;
+    background-repeat:no-repeat;
+    background-size: cover;
+    background-position-x: 0px;
+}
+
+ #chiffres-asso{
+    display:flex; 
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+ }
+
+ .div-info-chiffres{
+    display:flex; 
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items:center; 
+ }
+
+ #info-principale{
+    margin-top: 20px;
+    font-family: fantasy;
+    font-weight:800;
+    font-size: 70px;
+    color: ghostwhite;
+
+ }
+
+ #titre-1{
+    color:white;
+    
+   
+    
+ }
+
+ #texte-accueil{
+    margin-top:30px;
+ }
+
+ .section-titre{
+    color:white; 
+ }
+
+ #presentation-asso{
+    display:flex;
+    flex-direction:row;
+    justify-content: space-around;
+    align-items: center;
+    color:white;
+
+ }
+
+#description{
+    color:white;
+    text-align: justify;
+    width: 800px;
+}
+
+
